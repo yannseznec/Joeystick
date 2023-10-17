@@ -30,7 +30,6 @@
 #X obj 37 335 route abs_x abs_y abs_rz;
 #X obj 278 293 print;
 #X connect 0 0 26 0;
-#X connect 0 0 29 0;
 #X connect 21 0 23 0;
 #X connect 22 0 0 0;
 #X connect 23 0 24 0;
