@@ -4,8 +4,15 @@
 #X obj 148 26 loadbang;
 #X msg 98 125 open 1;
 #X obj 161 205 print;
+#X obj 121 89 t b b;
+#X msg 42 138 1;
+#X obj 42 162 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X connect 0 0 4 0;
 #X connect 1 0 0 0;
 #X connect 2 0 1 0;
-#X connect 2 0 3 0;
+#X connect 2 0 5 0;
 #X connect 3 0 0 0;
+#X connect 5 0 6 0;
+#X connect 5 1 3 0;
+#X connect 6 0 7 0;
+#X connect 7 0 0 0;
