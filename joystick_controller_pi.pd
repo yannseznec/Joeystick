@@ -1,4 +1,4 @@
-#N canvas 560 159 1004 705 12;
+#N canvas 334 51 1004 705 12;
 #X obj 99 229 hid;
 #X floatatom 129 457 5 0 0 0 - - joyX 0;
 #X floatatom 151 489 5 0 0 0 - - joyY 0;
@@ -30,6 +30,7 @@
 #X obj 379 359 route btn_0 btn_1 btn_2 btn_3 btn_4 btn_5 btn_6 btn_7 btn_8 btn_9 btn_10 btn_11, f 57;
 #X obj 37 335 route abs_x abs_y abs_rz;
 #X connect 0 0 27 0;
+#X connect 21 0 24 0;
 #X connect 22 0 21 0;
 #X connect 22 0 24 0;
 #X connect 23 0 0 0;
