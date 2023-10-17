@@ -1,6 +1,6 @@
-#N struct 1121-scope float x float y float x1 float y1 float c1 float c2 float c3 float c4 array vector-min 1121-scope-element array vector-max 1121-scope-element float curx;
-#N struct 1121-scope-element float y;
-#N canvas 79 103 1285 712 12;
+#N struct 1005-scope float x float y float x1 float y1 float c1 float c2 float c3 float c4 array vector-min 1005-scope-element array vector-max 1005-scope-element float curx;
+#N struct 1005-scope-element float y;
+#N canvas 193 508 1285 712 12;
 #X obj 511 121 s 1-record_rcv;
 #X obj 248 45 joystick_controller;
 #X obj 508 407 r button2;
@@ -72,6 +72,7 @@
 #X obj 1033 86 loadbang;
 #X msg 1033 110 helloooo;
 #X obj 108 110 ys.granular_main 1 sounds/Caroline.wav;
+#X obj 241 13 joystick_controller_pi;
 #X connect 2 0 34 0;
 #X connect 3 0 0 0;
 #X connect 4 0 5 0;
