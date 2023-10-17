@@ -1,4 +1,4 @@
-#N canvas 853 29 450 300 12;
+#N canvas 853 29 450 531 12;
 #X obj 164 174 hid;
 #X msg 155 62 print;
 #X obj 148 26 loadbang;
@@ -7,7 +7,7 @@
 #X msg 42 138 1;
 #X obj 42 162 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 111 215 route abs key;
-#X obj 126 267 route abs_hat0x abs_hat0y;
+#X obj 126 267 print;
 #X connect 0 0 7 0;
 #X connect 1 0 0 0;
 #X connect 2 0 1 0;
