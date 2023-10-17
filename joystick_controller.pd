@@ -40,6 +40,8 @@
 #X obj 720 424 tgl 19 0 button12 empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 156 33 loadbang;
 #X msg 156 57 1;
+#X msg 386 79 list joystick;
+#X obj 390 50 loadbang;
 #X connect 0 0 7 0;
 #X connect 1 0 0 0;
 #X connect 2 0 0 0;
@@ -79,3 +81,5 @@
 #X connect 26 11 38 0;
 #X connect 39 0 40 0;
 #X connect 40 0 24 0;
+#X connect 41 0 0 0;
+#X connect 42 0 41 0;
