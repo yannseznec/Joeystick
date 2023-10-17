@@ -1,5 +1,5 @@
-#N struct 1004-scope float x float y float x1 float y1 float c1 float c2 float c3 float c4 array vector-min 1004-scope-element array vector-max 1004-scope-element float curx;
-#N struct 1004-scope-element float y;
+#N struct 1044-scope float x float y float x1 float y1 float c1 float c2 float c3 float c4 array vector-min 1044-scope-element array vector-max 1044-scope-element float curx;
+#N struct 1044-scope-element float y;
 #N canvas 79 103 1285 712 12;
 #X obj 108 110 ys.granular_main 1;
 #X obj 511 121 s 1-record_rcv;
@@ -67,10 +67,13 @@
 #X obj 488 631 / 128;
 #X floatatom 488 655 5 0 0 0 - - - 0;
 #X obj 1135 340 r button12;
+#X obj 662 508 loadbang;
+#X obj 684 158 print trigger;
 #X connect 3 0 35 0;
 #X connect 4 0 1 0;
 #X connect 5 0 6 0;
 #X connect 6 0 7 0;
+#X connect 6 0 67 0;
 #X connect 8 0 9 0;
 #X connect 9 0 10 0;
 #X connect 11 0 12 0;
@@ -120,3 +123,4 @@
 #X connect 63 0 64 0;
 #X connect 64 0 61 0;
 #X connect 65 0 55 0;
+#X connect 66 0 42 0;
